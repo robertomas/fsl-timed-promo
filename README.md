@@ -21,6 +21,16 @@ data-fsl-start-date="2019, 7, 1" format (YEAR, MONTH, DAY)
 data-fsl-end-date="2019, 7, 5" format (YEAR, MONTH, DAY)
 ```
 
+## Step 3
+add data attributes to display other than block
+
+```bash
+data-fsl-display-type="flex"
+data-fsl-display-type="inline-block"
+
+```
+
+
 Example: To show div between July 1th and july 5th and then another div from July 6th to July 10th
 ```html
 <div class="promo-1 promo" data-fsl-timed-promo data-fsl-start-date="2019, 7, 1" data-fsl-end-date="2019, 7, 5">
