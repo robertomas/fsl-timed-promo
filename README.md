@@ -1,4 +1,4 @@
-# fsl-timed-promo v.1.0.0
+# fsl-timed-promo v.1.0.1
 Little jQuery script to show or hide a div between a set timed period
 
 
@@ -13,7 +13,7 @@ insert script in head or footer
 
 
 ## Step 2
-add data attributes to the div you want to show or hide
+add data-fsl-timed-promo attributes to the div you want to show or hide
 
 ```bash
 data-fsl-timed-promo to initiate script
@@ -22,7 +22,7 @@ data-fsl-end-date="2019, 7, 5" format (YEAR, MONTH, DAY)
 ```
 
 ## Step 3
-add data attributes to display other than block
+add data-fsl-display-type attributes to display other than block
 
 ```bash
 data-fsl-display-type="flex"
@@ -42,7 +42,7 @@ Example: To show div between July 1th and july 5th and then another div from Jul
 
 ```
 
-## Step 2
+## Add default css to hide all by default
 add css to hide div's by default
 ```html
 [data-fsl-timed-promo] {
